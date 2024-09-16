@@ -1,0 +1,124 @@
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  background: #f0f0f0; /* Light background to make the content stand out */
+}
+
+.container {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+  background: #fff; /* White background for the content area */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for a card effect */
+  border-radius: 8px; /* Rounded corners */
+}
+
+header {
+  background: #007bff; /* Darker background for the header */
+  padding: 20px;
+  text-align: center;
+  border-radius: 8px 8px 0 0; /* Rounded top corners */
+  color: #fff; /* White text color */
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5em;
+}
+
+header p {
+  margin: 10px 0;
+}
+
+header a {
+  color: #fff; /* White link color */
+  text-decoration: none;
+}
+
+header a:hover {
+  text-decoration: underline;
+}
+
+/* Section Styling */
+section {
+  margin: 20px 0;
+  padding: 20px;
+  background: #f9f9f9; /* Light background for each section */
+  border: 1px solid #ddd; /* Border for separation */
+  border-radius: 8px; /* Rounded corners */
+}
+
+section h2 {
+  font-size: 2em;
+  border-bottom: 2px solid #007bff;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+}
+
+.profile-photo {
+  border-radius: 50%; /* Make it round */
+  width: 150px; /* Adjust size as needed */
+  height: 150px; /* Keep it a square for proper roundness */
+  object-fit: cover; /* Ensures the image covers the box without distortion */
+  display: block; /* Ensures the image is on a new line */
+  margin: 20px auto; /* Centers the image horizontally */
+}
+
+/* Experience Section */
+.job {
+  margin-bottom: 20px;
+}
+
+.job h3 {
+  margin: 0;
+  font-size: 1.5em;
+}
+
+.job p {
+  margin: 5px 0;
+}
+
+.job ul {
+  list-style-type: square;
+  padding-left: 20px;
+}
+
+.job li {
+  margin-bottom: 5px;
+}
+
+/* Education Section */
+.degree {
+  margin-bottom: 20px;
+}
+
+.degree h3 {
+  font-size: 1.5em;
+  margin-bottom: 5px;
+}
+
+.degree p {
+  margin: 0;
+}
+
+/* Skills Section */
+.skills ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.skills li {
+  background: #e9ecef; /* Light background for skill items */
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.skills li::before {
+  content: "✓";
+  color: #007bff;
+  margin-right: 10px;
+}
